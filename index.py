@@ -22,3 +22,6 @@ print('\n\nCheck null values using isnull mehtod with sum():\n\n', df.isnull().s
 # noraml way to find the mean value of column in which found nan value and relace the nan with mean value.
 mean_value = df['Calories'].mean()
 print('\n\nReplace nan vaue with mean value:\n\n', df['Calories'].fillna(mean_value))
+
+# Finding a relation between the colums using pandas this important method corr() which is helps to find the relateion.
+print('\n\nFind relation using corr():\n\n', df.corr())
