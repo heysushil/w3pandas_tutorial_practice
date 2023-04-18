@@ -35,3 +35,5 @@ As per Pandas these are following steps to do:
 1. plotting
 
 I am going to follow these steps one by one and do the following things.
+
+>>>Note: For running `Jupyter Notebook` code also need to install a `ipykernal` in `vscode`.
